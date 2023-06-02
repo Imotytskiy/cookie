@@ -7,4 +7,4 @@ var idcookie = generateRandomNumber();
 var date = new Date(Date.now() + 86400e3);
 date = date.toUTCString();
 var cookie = "user=" + idcookie + "; expires=" + date;
-document.cookie;
+document.cookie = cookie;
